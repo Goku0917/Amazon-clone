@@ -1,64 +1,212 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-}
-header{
-    background-color: rgb(1, 9, 40);
-    color: white;
-}
-.nav-bar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+    margin: 0px;
+    padding: 0;
+    object-fit: fill;
+    width: fit-content;
+    overflow-x: hidden;
+    font-family: 'Cabin', sans-serif;
+    
     
 }
-#add-image{
+header{
+    background-color: #121921;
+    margin: 0;
+    
+}
+#amazon{
+    width: 300px;
     position: relative;
-    height: 13px;
+    top: 5px;
 }
-#TEXT{
-    display: flex;
-    width: 550px;
+#search{
+    width: 600px;
+    height: 30px;
+    position: relative;
+    bottom: 15px;
+    border-radius: 5px;
+    margin-left: 50px;
+    text-indent: 10px;
+    border: none;
+    
 }
-.main-nav{
-    background-color: #232f3e;
-    color: white;
-    display: flex;
-    padding: 10px 20px;
+#button{
+    background-color: #FBBE67;
+    position: relative;
+    bottom: 9px;
+    right: 40px;
+    height: 32px;
+    width: 38px;
+    border-radius: 5px;
+    border: none;
+    
 }
-.main-nav ul{
-    list-style: none;
-    display: flex;
-    gap: 20px;
+#ind{
+    position: relative;
+    bottom: 10px;
+    right: 20px;
+    
+}
 
+#accounts{
+    width: 200px;
+    position: relative;
+    top: 5px;
+    left: 20px;
+    
 }
-.main-nav ul li a{
+#cart{ width: 30px;
+    margin-left: 40px;
+    position: relative;
+    bottom: 5px;
+}
+#back{
+    background-image: url("https://github.com/Max3796/amazon-clone-boilerplate/blob/main/assets/background%20picture.png?raw=true");
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;    
+}
+#menu{
+    margin: 0;
+    background-color: #243040;
+}
+#ham{
+    width: 15px;
+    height: 15px;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+h4{
     color: white;
-    text-decoration: none;
+    margin: 7px;
+    font-size: 13px;
+    margin-top: 13px;
+    
 }
-.product-section{
+.text{
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 20px;
+    
 }
-.product-card{
+#lion{
+    margin-left: 150px;
+}
+#prime{
+    height: 35px;
+    padding-top: 5px;
+}
+#arrow{
+    position: absolute;
+    top: 230px;
+    left: 1200px;
+}
+#Items{
+    display: flex;
+    
+}
+#Item1{
+    width: 250px;
+    height: 320px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    bottom: -50px;
+    left: 40px;
+    background-color: #FFFCFC;
+    border-radius: 2px;
+    
+}
+#Item2{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 320px;
+    position: absolute;
+    bottom: -50px;
+    left: 360px;
+    background-color: #FFF3F3;
+    border-radius: 2px;
+}
+#Item3{
+    padding-left: 10px;
+    padding-right: 5px;
+    height: 320px;
+    position: absolute;
+    bottom: -50px;
+    left: 680px;
+    background-color: #FFF6F6;
+    border-radius: 2px;
+}
+#Item4{
+    padding: 10px;
+    padding-left: 30px;
+    height: 100px;
+    position: absolute;
+    bottom: 150px;
+    left: 1000px;
+    background-color: #FFFBFB;
+    border-radius: 2px;
+}
+#Item5{
+    padding: 0px;
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    bottom: 9px;
+    left: 1030px;
     background-color: white;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 8px;
-    box-shadow: 10px black;
-    flex: 1;
-    min-width: 280px;
-    min-width: 31%;
+    
 }
-.product-card h2{
-    font-size: 20px;
-    margin-bottom: 20px;
+#img1{
+    width: 230px;
 }
-.product-card .pr
+#img2{
+    width: 250px;
+}
+#img3{
+    width: 250px;
+    position: relative;
+    bottom: 10px;
+}
+#img4{
+    width: 250px;
+    border-radius: 2px;
+}
+#sign-in{
+    width: 230px;
+    margin: 0 30px 0 10px;
+    background-color: #FED813;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    
+}
+#amazon:hover{
+    cursor: pointer;
+}
+#sign-in:hover{
+    cursor: pointer;
+}
+h4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#arrow:hover{
+    cursor: pointer;
+}
+#prime:hover{
+    cursor: pointer;
+}
+#ham:hover{
+    cursor: pointer;
+}
+#cart:hover{
+    cursor: pointer;
+}
+#accounts:hover{
+    cursor: pointer;
+}
+#ind:hover{
+    cursor: pointer;
+}
+#button:hover{
+    cursor: pointer;
+}
